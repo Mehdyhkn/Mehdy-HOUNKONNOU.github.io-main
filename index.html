@@ -28,7 +28,7 @@
         </script>
         <title>Mehdy Hkn Portfolio</title>
     </head>
-    <body>
+    <body style="background-color:rgb(207, 224, 231);">
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
@@ -36,11 +36,7 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon"></i> Home
-                            </a>
-                        </li>
+                        
                         <li class="nav__item">
                             <a href="#about" class="nav__link">
                                 <i class="uil uil-user nav__icon"></i> About
@@ -51,6 +47,14 @@
                                 <i class="uil uil-file-alt nav__icon"></i> Skills
                             </a>
                         </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Qualification
+                            </a>
+                        </li>
+                        
+                            
+                        
                         <li class="nav__item">
                             <a href="#portfolio" class="nav__link"> 
                                 <i class="uil uil-scenery nav__icon"></i> Portfolio
@@ -125,7 +129,7 @@
                         </div>
 
                         <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg class="home__blob" viewBox="0 0 150 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
                                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
@@ -138,7 +142,7 @@
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
                                     
-                                    <image class="home__blob-img" x="20" y="10" xlink:href="assets/img/About/about-transparent.png"/>
+                                    <image class="home__blob-img" x="20" y="0" xlink:href="assets/img/About/about-transparent.png"/>
                                 </g>
                             </svg>                            
                         </div>
@@ -176,14 +180,14 @@
                     <img src="assets/img/About/about3.png" alt="" class="about__img">
                 
                     <div class="about__data">
-                        <p class="about__description">I am a young graduate from the university of Bordeaux with a double master degree, in statistical and stochastic modeling and in fundamental mathematics preceded by a bachelor degree in mathematics.
+                        <p class="about__description">I am a young graduate from the university of Bordeaux with a double master degree (complete and 1 year), in statistical and stochastic modeling and in fundamental mathematics preceded by a bachelor degree in mathematics.
 
-                            Since I was a kid, I always liked to solve challenges. This is how I consider large data sets: for me, it is a big challenge that I want to solve. Finding patterns that no one else sees is the challenge for me.
+                            Since I was a child, I always liked to solve challenges. This is how I consider large data sets: for me, it is a big challenge that I want to solve. Finding patterns that no one else sees is the challenge for me.
                         </p>
 
                         <div class="about__info">
                             <div>
-                                <span class="about__info-title">8</span>
+                                <span class="about__info-title">...</span>
                                 <span class="about__info-name">Data Projects <br> Completed</span>
                             </div>
                         </div>
@@ -724,7 +728,7 @@
             </section>
 
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+            <section class="qualification section" id="Qualification">
                 <h2 class="section__title">Qualification</h2>
                 <span class="section__subtitle">My Personal Journey</span>
 
@@ -749,14 +753,16 @@
                             <!--==================== QUALIFICATION 1 ====================-->
                             <div class="qualification__data">
                                 <div>
-                                    <h3 class="qualification__title">Master of statistical and stochastic modeling</h3>
-                                    <span class="qualification__subtitle">University of Bordeaux, Talence, FRANCE</span>
+                                    <h3 class="qualification__title"> <a href="http://uf-mi.u-bordeaux.fr/MSS/organisation/"> Master of statistical and stochastic modeling</a></h3>
+                                    <span class="qualification__subtitle"><a href="https://www.u-bordeaux.fr/"> University of Bordeaux</a>, Talence, FRANCE</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2019-2021
                                     </div>
-                                </div>
 
+                            
+                           
+                                </div>
                                 <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
@@ -774,8 +780,8 @@
                                 </div>
 
                                 <div>
-                                    <h3 class="qualification__title">Master of fundamental mathematics</h3>
-                                    <span class="qualification__subtitle">University of Bordeaux, Talence, FRANCE</span>
+                                    <h3 class="qualification__title"><a href="https://formations.u-bordeaux.fr/#/details-formation?type=periode&id=43765">  Master of fundamental mathematics</a></h3>
+                                    <span class="qualification__subtitle"><a href="https://www.u-bordeaux.fr/"> University of Bordeaux</a>, FRANCE</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2018-2019
@@ -785,11 +791,11 @@
 
                              <!--==================== QUALIFICATION 3 ====================-->
                              <div class="qualification__data">
-            
+                                
 
                                 <div>
-                                    <h3 class="qualification__title">Bachelor of fundamental mathematics</h3>
-                                    <span class="qualification__subtitle">University of Bordeaux, Talence, FRANCE</span>
+                                    <h3 class="qualification__title"><a href="https://formations.u-bordeaux.fr/#/details-formation?type=formation&id=17">  Bachelor of fundamental mathematics</a></h3>
+                                    <span class="qualification__subtitle"><a href="https://www.u-bordeaux.fr/"> University of Bordeaux</a>, Talence, FRANCE</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2015-2018
@@ -813,9 +819,9 @@
                                     <span class="qualification__line"></span>
                                 </div>
 
-                               <div>
-                                   <h3 class="qualification__title">1rst year Bachelor of mathematics and computer science </h3>
-                                   <span class="qualification__subtitle">University of Abomey-Calavi, Calavi, BENIN</span>
+                               <div> 
+                                   <h3 class="qualification__title"><a href="https://cours.uac.bj/u/UyhNIffIaK3sSEcbvxJZ/"> 1rst year Bachelor of mathematics and computer science </a> </h3>
+                                   <span class="qualification__subtitle"><a href="https://cours.uac.bj/"> University of Abomey-Calavi</a>, Calavi, BENIN</span>
                                    <div class="qualification__calendar">
                                        <i class="uil uil-calendar-alt"></i>
                                        2014-2015
@@ -828,7 +834,7 @@
 
                            <div>
                                <h3 class="qualification__title">Secondary and Higher Secondary in Science</h3>
-                               <span class="qualification__subtitle">Catholic College 'Père Aupiais', Cotonou, BENIN</span>
+                               <span class="qualification__subtitle"><a href="https://cc-pereaupiais.org/index.php"> Catholic College 'Père Aupiais'</a> , Cotonou, BENIN</span>
                                <div class="qualification__calendar">
                                    <i class="uil uil-calendar-alt"></i>
                                    2007-2014
@@ -838,9 +844,9 @@
                            <div>
                             <span class="qualification__rounder"></span>
                             <span class="qualification__line"></span>
-                        </div>
+                           </div>
 
-                       </div>
+                        </div>
 
                         </div>
 
@@ -1106,9 +1112,72 @@
                 <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
 					
-					 
+					
+					    <!--==================== PORTFOLIO 1====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Portfolio/portfolio8.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Food AI</h3>
+                                <h4 class="portfolio__subtitle">Cross-Modal Representation Learning</h4>
+
+                                <li class="qualification__modal-work portfolio__description">
+                                    <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                    <p>Performed retrieval of food recipes given food images and vice versa using crossmodal techniques. </p> 
+                                </li>
+
+                                <li class="qualification__modal-work portfolio__description">
+                                    <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                    <p>Improved the representation learning pipeline for both recipe text and recipe images and beat the baseline top-10 recall 
+                                    for image-to-recipe retrieval in the original paper <a href = "https://ieeexplore.ieee.org/document/8099810">here</a> by 20 percentage points </p>
+                                </li>
+
+                                <li class="qualification__modal-work portfolio__description">
+                                    <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                    <p>Measured retrieval metrics employing three techniques: CCA and neural networks trained for retrieval on learnt representations using 1) MSE Loss, and 2) Triplet Loss. 
+                                    Attained median retrieval rank of 1 and top-10 recall of 82.49% for 1,000 random food images using Triplet Loss trained neural networks. </p>
+                                </li>
+
+                                <h4 class="portfolio__subtitle">Tech Stack</h4>
+
+                                <div class="portfolio_tech_icons">
+                                    <img src="assets/img/Tech/pytorch.png">
+                                    <img src="assets/img/Tech/python.png">
+									<img src="assets/img/Tech/hf.jpeg">
+                                    <img src="assets/img/Tech/seaborn.jpg">
+                                </div><br>
+								
+								<h4 class="portfolio__subtitle">Research Papers Referred</h4>
+
+                                <div class="portfolio_tech_icons">
+									<a class = "portfolio__links" href = "https://ieeexplore.ieee.org/document/8099810"> <h6> Learning Cross-Modal Embeddings for Cooking Recipes and Food Images </h6></a>
+									<a class = "portfolio__links" href = "https://arxiv.org/abs/2012.01345"> <h6> Cross-Modal Retrieval and Synthesis (X-MRS): Closing the Modality Gap in Shared Representation Learning </h6></a>
+									<a class = "portfolio__links" href = "https://arxiv.org/abs/1810.06553"> <h6> CRecipe1M+: A Dataset for Learning Cross-Modal Embeddings for Cooking Recipes and Food Images </h6></a>
+									<a class = "portfolio__links" href = "https://arxiv.org/abs/2204.09730"> <h6> Transformer Decoders with MultiModal Regularization for Cross-Modal Food Retrieval </h6></a>
+									<a class = "portfolio__links" href = "https://arxiv.org/abs/2004.01095"> <h6> MCEN: Bridging Cross-Modal Gap between Cooking Recipes and Dish Images with Latent Variable Model </h6></a>
+                                </div>
+								
+								<a href="https://github.com/kunjmehta/cross-modal-retrieval-food-ai" class="button button--flex button--small portfolio__button">
+                                    View Code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+
+                                <a href="https://drive.google.com/file/d/1bfroaYiX67ztslwe4n-eMDVxIiveqT0j/view?usp=sharing" class="button button--flex button--small portfolio__button">
+                                    View Report
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+								
+								<a href="https://drive.google.com/file/d/15H9o9e4q5y3CnX5pLInyZ_SORW3ZNy1c/view?usp=sharing" class="button button--flex button--small portfolio__button">
+                                    View Presentation
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+								
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
+            
 
             <!--==================== RESEARCH PAPERS ====================-->
             <section class="research section" id="research">
@@ -1125,11 +1194,9 @@
                                 prédictions individuelles robustes en cancérologie</h3>
                             <h4 class="research__subtitle">Mehdy HOUNKONNOU, Loic Ferrer, Adrien Richou</h4>
                             <h4 class="research__subtitle">Abstract</h4>
-                            <p class="research__description">Ce rapport rend compte du stage de six mois que j’ai effectué au sein de l’équipe de R&D, au sein du département RADIOMICS de l’entreprise SOPHiA GENETICS. Ce
-                                stage s’est effectué dans le cadre de ma formation pour l’obtention du Master de Mathématiques
+                            <p class="research__description">Ce rapport rend compte du stage de six mois que j’ai effectué au sein de l’équipe de R&D, au sein du département RADIOMICS de l’entreprise SOPHiA GENETICS. 
+                                Ce stage s’est effectué dans le cadre de ma formation pour l’obtention du Master de Mathématiques
                                 appliquées, Statistiques, parcours Modélisation Statistique et Stochastique de l’Université Bordeaux.
-                                Les travaux de ce stage ont un impact direct sur la vie des patients atteints de cancers et de maladies rares dans le monde. Ce domaine
-                                d’application m’a fasciné, car c’est un mélange harmonieux à la fois des mathématiques et du monde
                                 de la santé. 
                                 L’objectif principal de mon stage était la prise en compte de l’incertitude des caractéristiques radiomiques
                                 issues d’imageries médicales pour le calcul de prédictions individuelles robustes en cancer.
@@ -1138,6 +1205,74 @@
                         </div>
                         <div class="about__buttons">
                             <a download="" href="assets/pdf/stage_sophia.pdf" class="button button--flex resume">
+                                Read more! <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                         
+                        
+                    </div>
+
+                    <div class="research__content">
+                        <div>
+                            <!-- <i class="uil uil-web-grid research__icon"></i> -->
+                            <h3 class="research__title">Estimation de densité</h3>
+                            <h4 class="research__subtitle">Mehdy HOUNKONNOU, Pol LABARBARIE, Gauthier Thurin, Benjamin MENENDEZ</h4>
+                            <h4 class="research__subtitle">Abstract</h4>
+                            <p class="research__description">L’objectif de ce rapport est de travailler sur l’estimateur de Revesz pour l’estimation de densités dans R deux fois
+                                dérivables. L’estimation par noyaux est une des méthodes les plus utilisées pour l’estimation non paramétrique
+                                de la densité. L’estimateur de Revesz est construit comme un algorithme stochastique à pas simple, mais peut
+                                être traduit en un terme général qui, selon les valeurs de ses coefficients, définit toute une classe d’estimateurs
+                                récursifs par noyaux. Parmi eux, on retrouve les estimateurs de Wolverton-Wagner-Yamato, de Wegman-Davies
+                                et de Deheuvels, pour lesquels on précisera tous nos résultats de convergence. Après avoir établi le contexte de
+                                notre travail, nous partirons de la définition par récurrence de l’estimateur de Revesz pour retrouver son terme
+                                général et faire le parallèle avec nos trois cas particuliers. Puis, nous montrerons les convergences ps et en loi de
+                                nos estimateurs. Pour finir, nous considèrerons l’algorithme de Revesz moyennisé. Nous accompagnerons nos
+                                résultats de simulations et de codes Python.
+                                 </p>
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="assets/project/densitc3a9s.pdf" class="button button--flex resume">
+                                Read more! <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                         
+                        
+                    </div>
+
+                    <div class="research__content">
+                        <div>
+                            <!-- <i class="uil uil-web-grid research__icon"></i> -->
+                            <h3 class="research__title">Le mouvement brownien</h3>
+                            <h4 class="research__subtitle">Mehdy HOUNKONNOU, Pol LABARBARIE, Gauthier Thurin</h4>
+                            <h4 class="research__subtitle">Abstract</h4>
+                            <p class="research__description">Les mouvements exploratoires des requins correspondent à une marche aléatoire dont la distribution est à
+                                queue lourde. Les pas de la nage aléatoire du requin suivent une loi alpha-stable avec alpha  dans l'intervalle ]0, 2] et avec souvenir
+                                du passé. Notre objectif ici est de simuler le comportement asymptotique de la nage du requin sur R selon
+                                son paramètre de mémoire p et le paramètre alpha. </p>
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="assets/project/mb_final.pdf" class="button button--flex resume">
+                                Read more! <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                         
+                        
+                    </div>
+
+                    <div class="research__content">
+                        <div>
+                            <!-- <i class="uil uil-web-grid research__icon"></i> -->
+                            <h3 class="research__title">Modélisation de la nage du requin</h3>
+                            <h4 class="research__subtitle">Mehdy HOUNKONNOU, Pol LABARBARIE, Gauthier Thurin, Benjamin MENENDEZ</h4>
+                            <h4 class="research__subtitle">Abstract</h4>
+                            <p class="research__description">Le mouvement brownien désigne deux choses : un phénomène physique et un objet mathématique. Si
+                                on souhaite aborder ce sujet, on ne peut faire l’économie de quelques noms célèbres. Nous introduisons ici certaines caractérisations du mouvement brownien et décrivons quelques-unes
+                                de ses propriétés, dans l’optique de discuter de deux applications : Quel est le lien entre diffusion d’un
+                                processus brownien et équation de la chaleur ? Et comment modéliser la trajectoire d’une particule de
+                                pollution dans une rivière ? Nous illustrerons nos propos avec des simulations </p>
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/nage du requin.pdf" class="button button--flex resume">
                                 Read more! <i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
@@ -1172,6 +1307,22 @@
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
                     </div>
+
+                    <!--==================== CERTIFICATION 2 ====================-->
+                    <div class="certification__content">
+                        <div>
+                            <!-- <i class="uil uil-web-grid research__icon"></i> -->
+                            <p style="text-align: center;"><img src="assets/img/Certifications/FreeCodeCamp_logo.svg.png"></p>
+                            <h4 class="certification__title">Data Analysis with python</h4>
+                            <h4 class="certification__subtitle">Expiry Date: None</h4>
+                        </div>
+
+                        <a  class="button button--flex button--small button--link certification__button" href="https://www.freecodecamp.org/certification/mehdyhkn/data-analysis-with-python-v7">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                    
                     
                     
                 </div>
